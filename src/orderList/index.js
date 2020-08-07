@@ -12,7 +12,7 @@ class Home extends Component {
         super(props);
         this.state = {
             value: 'xxx',
-            list: ['第一列', '第二列']
+            list: ['第一列', '第二列','第三列']
         }
     }
     
