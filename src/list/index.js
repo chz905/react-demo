@@ -18,8 +18,8 @@ class List extends Component {
             <div>
                 列表，id:{this.state.id}
             </div>
-         );
+        )
     }
 }
- 
+
 export default List;
