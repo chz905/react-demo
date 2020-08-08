@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import axios from 'axios'
-import {Link} from 'react-router-dom'
+// import {Link} from 'react-router-dom'
 class Index extends Component {
     constructor(props) {
         super(props);
         this.state = { 
             list:[]
         }
-        this.props.history.push('/order')
+        // this.props.history.push('/order')
     }
     componentWillUnmount(){
         this.setState = ()=>false;
@@ -18,7 +18,8 @@ class Index extends Component {
     render() { 
         return ( 
             <div>
-                <ul>
+                <h2>首页</h2>
+                {/* <ul>
                     {
                         this.state.list.map((item,index)=>{
                             return (
@@ -30,7 +31,7 @@ class Index extends Component {
                             )
                         })
                     }
-                </ul>
+                </ul> */}
             </div>
          );
     }
