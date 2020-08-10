@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import Indexa from './index2'
 import Indexb from './index3'
 import Indexc from './index4'
+import Indexd from './index5'
+import Indexe from './index6'
 
 const CountContext = createContext()
 
@@ -26,11 +28,17 @@ function Index(){
             </Router>
             {/* <Indexa /> */}
             {/* <Indexb /> */}
+            -------------
             <h3>组件</h3>
             <CountContext.Provider value={count}>
                 <Indexc />
             </CountContext.Provider>
-
+            -------------
+            <Indexd />
+            
+            -------------
+            
+            <Indexe />
             
         </div>
     )
